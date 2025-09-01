@@ -24,7 +24,7 @@
 	//Від кого лист
 	$mail->setFrom('outstaffing-ukraine@gmail.com', 'Outstaffing Ukraine'); // Вказати потрібний E-mail
 	//Кому відправити
-	$mail->addAddress('nicolas14231327@gmail.com'); // Вказати потрібний E-mail
+	$mail->addAddress('website.dewelopment@gmail.com'); // Вказати потрібний E-mail
 	//Тема листа
 	$mail->Subject = 'Outstaffing Ukraine';
 
@@ -37,8 +37,8 @@
     if(trim(!empty($_POST['lastname']))){
 		$body.='<p><strong>Lastname:</strong> '.$_POST['lastname'].'</p>';
 	}
-	if(trim(!empty($_POST['email']))){
-		$body.='<p><strong>Email:</strong> '.$_POST['email'].'</p>';
+	if(trim(!empty($_POST['email-user']))){
+		$body.='<p><strong>Email:</strong> '.$_POST['email-user'].'</p>';
 	}	
 	if(trim(!empty($_POST['phone-number']))){
 		$body.='<p><strong>Phone number:</strong> '.$_POST['phone-number'].'</p>';
@@ -66,7 +66,7 @@
 	if (!$mail->send()) {
 		$message = 'Error';
 	} else {
-		$message = 'Data sent!';
+		$message = 'Thanks for Your Order';
 	}
 
 	$response = ['message' => $message];

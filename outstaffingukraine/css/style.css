@@ -505,7 +505,7 @@ textarea.input {
 }
 
 .menu__link {
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.7142857143;
   color: rgba(189, 189, 189, 0.6);
   -webkit-transition: color 0.3s ease 0s;
@@ -669,9 +669,6 @@ textarea.input {
   border-radius: 50%;
   background-color: #fff;
   color: #00283C;
-  -webkit-transition: color 0.3s ease 0s;
-  -o-transition: color 0.3s ease 0s;
-  transition: color 0.3s ease 0s;
 }
 
 .contacts-footer__item {
@@ -3216,10 +3213,6 @@ textarea.input {
 
   .footer__link:hover {
     color: #EDEDED;
-  }
-
-  .social__item:hover {
-    color: #FFD233;
   }
 
   .contacts-footer__value:hover {
