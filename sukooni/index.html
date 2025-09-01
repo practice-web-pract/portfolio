@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SUKOONI</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css" integrity="sha512-O03ntXoVqaGUTAeAmvQ2YSzkCvclZEcPQu1eqloPaHfJ5RuNGiS4l+3duaidD801P50J28EHyonCV06CUlTSag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-lp class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto-header data-goto=".grasp__container" href="#" class="menu__link">Key Features</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".how__container" href="#" class="menu__link">How Sukooni Works</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".step__container" href="#" class="menu__link">Pre-Register</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__action">
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close"></button>
+					<div class="popup__body">
+						<form class="popup__form form" action="#" method="POST">
+							<input id="pre-registration-name" type="text" required name="form[first-name]" placeholder="First Name" class="input">
+							<input id="pre-registration-email" type="email" required name="form[email]" placeholder="Email Address" class="input">
+							<button type="submit" class="form__button button">Pre-Register Now</button>
+							<div id="saving-indicator"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section data-prlx-mouse-wrapper class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<h1 class="main-block__title">Peace of Mind, <br> Just a Tap Away</h1>
+						<div class="main-block__text">
+							<p>
+								Connect securely and confidentially with licensed mental health professionals who will guide you on your journey toward
+								a happier, more empowered self, right from your digital device.
+							</p>
+						</div>
+						<div class="main-block__action">
+							<button data-popup="#popup" class="main-block__button button">Pre-Register Now</button>
+						</div>
+						<div class="main-block__items">
+							<div class="main-block__item item-main-block">
+								<img src="img/main-block/icons/01.svg" alt="icon">
+							</div>
+							<div class="main-block__item item-main-block">
+								<img src="img/main-block/icons/02.svg" alt="icon">
+							</div>
+							<div class="main-block__item item-main-block">
+								<img src="img/main-block/icons/03.svg" alt="icon">
+							</div>
+						</div>
+					</div>
+					<div class="main-block__image">
+						<div class="main-block__box-image">
+							<picture><source srcset="img/main-block/01.webp" type="image/webp"><img data-prlx-mouse data-prlx-cx="150" data-prlx-cy="150" src="img/main-block/01.png" alt="image"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__grasp grasp">
+				<div class="grasp__container">
+					<h2 class="grasp__title">Wellness Within Your Grasp</h2>
+					<div class="grasp__body">
+						<div class="grasp__image">
+							<picture><source srcset="img/grasp/01.webp" type="image/webp"><img src="img/grasp/01.png" alt="image"></picture>
+						</div>
+						<div class="grasp__content">
+							<ul class="grasp__list list-grasp">
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item">
+									<div class="list-grasp__title">Personalized Matching, Effortless Changes</div>
+									<div class="list-grasp__text">
+										<p>
+											Perfect Match, No Strings Attached. Our advanced algorithm ensures the right mental health professional match for you.
+											And if you ever feel the need to make changes, we make it effortless to switch professionals and find the right fit for
+											your evolving journey to mental well-being.
+										</p>
+									</div>
+								</li>
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item list-grasp__item_left">
+									<div class="list-grasp__title">Flexible Scheduling & Accessibility</div>
+									<div class="list-grasp__text">
+										<p>
+											Wellness at Your Pace, Anytime, Anyplace. Schedule mental wellness sessions to fit your day, whether morning, noon, or
+											night, at home or <br>
+											on-the-go.
+										</p>
+									</div>
+								</li>
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item">
+									<div class="list-grasp__title">Vetted Professionals, Exceptional Care</div>
+									<div class="list-grasp__text">
+										<p>
+											Every professional in our network is meticulously vetted to meet our highest standards. Rest assured, your journey
+											towards mental wellness is guided by top-tier experts, ensuring you receive unmatched support and guidance. Excellence
+											is more than a promise, it's our unwavering commitment.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grasp__body grasp__body_right">
+						<div class="grasp__image">
+							<picture><source srcset="img/grasp/02.webp" type="image/webp"><img src="img/grasp/02.png" alt="image"></picture>
+						</div>
+						<div class="grasp__content">
+							<ul class="grasp__list list-grasp">
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item list-grasp__item_left">
+									<div class="list-grasp__title">Multimodal Communication</div>
+									<div class="list-grasp__text">
+										<p>
+											Connect Your Way. Experience the power of choice with video, audio or text-based sessions, allowing you to connect with
+											your mental health professional in a way that resonates most with your comfort and preferences.
+										</p>
+									</div>
+								</li>
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item">
+									<div class="list-grasp__title">On-Demand Support with Rashid,
+										Your AI Companion</div>
+									<div class="list-grasp__text">
+										<p>
+											Support at Your Beck and Call. Meet Rashid, your personal AI companion, available 24/7 to provide you with immediate and
+											unlimited assistance. Navigate your wellness journey with the assurance that a comforting presence and helpful guidance
+											are just a conversation away.
+										</p>
+									</div>
+								</li>
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item list-grasp__item_left">
+									<div class="list-grasp__title">Self-Guided Learning & Care</div>
+									<div class="list-grasp__text">
+										<p>
+											Empowerment Through Education. Benefit from our curated selection of webinars, exercises, and worksheets. These
+											resources are designed to equip you with skills and knowledge that you can apply independently, empowering you to take
+											control of your mental wellness journey.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="grasp__body grasp__body_3">
+						<div class="grasp__image">
+							<picture><source srcset="img/grasp/03.webp" type="image/webp"><img src="img/grasp/03.png" alt="image"></picture>
+						</div>
+						<div class="grasp__content">
+							<ul class="grasp__list list-grasp">
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item">
+									<div class="list-grasp__title">Mood Tracking & Progress Charting</div>
+									<div class="list-grasp__text">
+										<p>
+											Your Journey, Visualized. Use our intuitive mood tracking and progress charting tools to monitor your mental wellness
+											journey. Empowering you with insights into your progress, we make it easier for you to understand, manage, and enhance
+											your emotional well-being.
+										</p>
+									</div>
+								</li>
+								<li data-watch-threshold="0.5" data-watch-once data-watch class="list-grasp__item list-grasp__item_left">
+									<div class="list-grasp__title">Secure & Confidential</div>
+									<div class="list-grasp__text">
+										<p>
+											Your Privacy, Our Priority. Rest assured knowing that all your sessions take place within a highly secure and encrypted
+											environment, safeguarding your confidentiality and peace of mind.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__how how">
+				<div class="how__container">
+					<h2 class="how__title">How Sukooni Works</h2>
+					<div class="how__text">
+						<p>
+							Embark on your journey to mental wellness. It's as easy as 1-2-3.
+						</p>
+					</div>
+					<div class="how__items">
+						<div class="how__item item-how">
+							<div class="item-how__icon">
+								<img src="img/how/01.svg" alt="image">
+							</div>
+							<div class="item-how__title">
+								Explore
+							</div>
+							<div class="item-how__text">
+								<p>
+									Complete a quick questionnaire outlining your personal journey, therapy goals, and preferences.
+								</p>
+							</div>
+						</div>
+						<div class="how__item item-how">
+							<div class="item-how__icon">
+								<img src="img/how/02.svg" alt="image">
+							</div>
+							<div class="item-how__title">
+								Match
+							</div>
+							<div class="item-how__text">
+								<p>
+									Our smart algorithm connects you with a culturally aware, qualified counselor tailored to your unique needs.
+								</p>
+							</div>
+						</div>
+						<div class="how__item item-how">
+							<div class="item-how__icon">
+								<img src="img/how/03.svg" alt="image">
+							</div>
+							<div class="item-how__title">
+								Schedule
+							</div>
+							<div class="item-how__text">
+								<p>
+									Arrange your mental wellness sessions at your convenience, wherever and whenever works best for you.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="how__text how__text_fz22">
+                        <p class="how__one-text">Start your transformative wellness journey with Sukooni</p>
+                        <p class="how__one-text">and embrace the power of personalized care, delivered</p>
+                        <p class="how__one-text">with absolute discretion and confidentiality.</p>
+                        <p class="how__two-text">
+                            Start your transformative wellness journey with Sukooni
+                            and embrace the power of personalized care, delivered
+                            with absolute discretion and confidentiality.
+                        </p>
+					</div>
+				</div>
+			</section>
+			<section class="page__step step">
+				<div class="step__container">
+					<div class="step__body">
+						<div class="step__content">
+							<h2 class="step__title">Take the First Step Towards Your Best Self</h2>
+							<div class="step__text">
+								<p class="step__padding-text">
+									At Sukooni, we're pioneering a new era in mental wellness care, and we're inviting you to join us. Be one of the first
+									to explore our innovative app at launch, and as a token of our appreciation, enjoy an
+								</p>
+								<p class="step__yellow-text">
+									<span>Exclusive one-month discount on sessions</span>
+								</p>
+								<p class="step__padding-text">
+									It's time to take that first step towards a better you.
+									Pre-register now to unlock your journey of self-discovery and
+									well-being.
+								</p>
+							</div>
+							<button data-popup="#popup" class="step__button button">Pre-Register Now</button>
+						</div>
+						<div class="step__image">
+							<div class="step__box-image">
+								<picture><source srcset="img/step/01.webp" type="image/webp"><img src="img/step/01.png" alt="image"></picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__box-logo">
+					<a href="#" class="footer__logo"><img src="img/logo.svg" alt="logo"></a>
+				</div>
+				<div class="footer__body">
+					<div class="footer__column">
+						<div class="footer__title">Privacy and Security</div>
+						<div class="footer__text">
+							<p>
+								Your privacy and security are our top priorities at Sukooni. We adhere to stringent data protection measures and comply
+								with industry-leading standards, including HIPAA regulations. Your personal health information is encrypted and handled
+								with the utmost confidentiality, ensuring a secure and confidential environment for your mental wellness journey. Rest
+								assured that your trust is valued, and your data is safeguarded every step of the way.
+							</p>
+						</div>
+					</div>
+					<div class="footer__column">
+						<ul class="footer__list menu-footer">
+							<li class="menu-footer__item"><a data-goto-header data-goto=".grasp__container" href="#" class="menu-footer__link">Key Features</a></li>
+							<li class="menu-footer__item"><a data-goto-header data-goto=".how__container" href="#" class="menu-footer__link">How Sukooni Works</a></li>
+							<li class="menu-footer__item"><a data-popup="#popup" href="#" class="menu-footer__link">Pre-Register</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__info info-footer">
+							<div class="info-footer__text">Have Questions or Concerns? Reach out to us at</div>
+							<div class="info-footer__box-email">
+								<a href="mailto:info@sukooni.com" class="info-footer__email">info@sukooni.com</a>
+							</div>
+							<div class="info-footer__items">
+								<a href="https://www.instagram.com/sukooni_official/" target="_blank" class="info-footer__link"><img src="img/footer/02.svg" alt="icon"></a>
+								<a href="https://www.linkedin.com/company/sukooni/" target="_blank" class="info-footer__link"><img src="img/footer/03.svg" alt="icon"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copy">
+					© Copyright 2023 Sukooni, All Rights Reserved
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230614154246"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js" integrity="sha512-Zq9o+E00xhhR/7vJ49mxFNJ0KQw1E1TMWkPTxrWcnpfEFDEXgUiwJHIKit93EW/XxE31HSI5GEOW06G6BF1AtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/pre-registration.js"></script>
+</body>
+
+</html>
